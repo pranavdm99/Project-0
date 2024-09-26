@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/tb_control/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/tb_control/lib/python3.10/site-packages",
+        "/home/pranavdm/UMD/Sem-1/ENPM662/test1/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

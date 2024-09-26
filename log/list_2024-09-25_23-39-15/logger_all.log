@@ -1,0 +1,286 @@
+[0.129s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0']
+[0.129s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f39f325dd80>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f39f3435ff0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f39f3435ff0>>)
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install) ignored
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/log) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/log) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/log) ignored
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'cmake'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'python'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver) by extension 'ros'
+[0.242s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/hls_lfcd_lds_driver' with type 'ros.ament_cmake' and name 'hls_lfcd_lds_driver'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extension 'ignore_ament_install'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extensions ['colcon_pkg']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extension 'colcon_pkg'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extensions ['colcon_meta']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extension 'colcon_meta'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extensions ['ros']
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/ld08_driver' with type 'ros.ament_cmake' and name 'ld08_driver'
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

@@ -1,0 +1,37 @@
+[0.323s] Invoking command in '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/tb_control': PYTHONPATH=/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tb_control build --build-base /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build install --record /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/install.log --single-version-externally-managed install_data
+[0.446s] running egg_info
+[0.447s] creating ../build/tb_control/tb_control.egg-info
+[0.447s] writing ../build/tb_control/tb_control.egg-info/PKG-INFO
+[0.447s] writing dependency_links to ../build/tb_control/tb_control.egg-info/dependency_links.txt
+[0.447s] writing entry points to ../build/tb_control/tb_control.egg-info/entry_points.txt
+[0.447s] writing requirements to ../build/tb_control/tb_control.egg-info/requires.txt
+[0.447s] writing top-level names to ../build/tb_control/tb_control.egg-info/top_level.txt
+[0.447s] writing manifest file '../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.448s] reading manifest file '../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.449s] writing manifest file '../build/tb_control/tb_control.egg-info/SOURCES.txt'
+[0.449s] running build
+[0.449s] running build_py
+[0.449s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build
+[0.449s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib
+[0.449s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control
+[0.449s] copying tb_control/__init__.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control
+[0.449s] copying tb_control/tb_openLoop.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control
+[0.449s] running install
+[0.449s] running install_lib
+[0.450s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control
+[0.450s] copying /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control/__init__.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control
+[0.450s] copying /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control/tb_openLoop.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control
+[0.451s] byte-compiling /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control/__init__.py to __init__.cpython-310.pyc
+[0.451s] byte-compiling /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control/tb_openLoop.py to tb_openLoop.cpython-310.pyc
+[0.451s] running install_data
+[0.451s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/ament_index
+[0.451s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/ament_index/resource_index
+[0.451s] creating /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/ament_index/resource_index/packages
+[0.451s] copying resource/tb_control -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/ament_index/resource_index/packages
+[0.451s] copying package.xml -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/tb_control
+[0.451s] running install_egg_info
+[0.452s] Copying ../build/tb_control/tb_control.egg-info to /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control-0.0.0-py3.10.egg-info
+[0.453s] running install_scripts
+[0.465s] Installing tb_openLoop script to /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/tb_control
+[0.465s] writing list of installed files to '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/install.log'
+[0.479s] Invoked command in '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/tb_control' returned '0': PYTHONPATH=/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/tb_control build --build-base /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build install --record /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv"
+  ]
+}

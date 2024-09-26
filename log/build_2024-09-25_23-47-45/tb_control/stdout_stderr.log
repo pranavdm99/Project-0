@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/tb_control/tb_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/tb_control/tb_control.egg-info/dependency_links.txt
+writing entry points to ../../build/tb_control/tb_control.egg-info/entry_points.txt
+writing requirements to ../../build/tb_control/tb_control.egg-info/requires.txt
+writing top-level names to ../../build/tb_control/tb_control.egg-info/top_level.txt
+reading manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/tb_control/tb_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tb_control/__init__.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control
+copying tb_control/tb_openLoop.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control
+running install
+running install_lib
+copying /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control/__init__.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control
+copying /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/build/lib/tb_control/tb_openLoop.py -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control
+byte-compiling /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control/tb_openLoop.py to tb_openLoop.cpython-310.pyc
+running install_data
+copying resource/tb_control -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/share/tb_control
+running install_egg_info
+removing '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tb_control/tb_control.egg-info to /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/python3.10/site-packages/tb_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tb_openLoop script to /home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/install/tb_control/lib/tb_control
+writing list of installed files to '/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/build/tb_control/install.log'

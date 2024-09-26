@@ -1,0 +1,11 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs:msg/Sound.msg",
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs:srv/Sound.srv",
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/pranavdm/UMD/Sem-1/ENPM662/Projects/Project-0/src/turtlebot3/turtlebot3_msgs:action/Patrol.action"
+  ]
+}
